@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+body {
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    background: linear-gradient(to right, #aa4b6b, #6b6b83, #3b8d99);
+    -webkit-user-select: none;
+}
+
+div.box {
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    padding: 10px;
+    height: 60%;
+    width: 30%;
+    background-color: #2266AB;
+    border-radius: 50px;
+    overflow: auto;
+    box-shadow: 0 0.75rem 1.5rem rgba(0, 0, 0, 1);
+}
+
+div.box::-webkit-scrollbar {
+    display: none;
+}
+
+p.box_title {
+    font-size: 2em;
+    color: white;
+}
+
+p.label {
+    color: black;
+}
+
+.input {
+    width: 40%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 15px;
+    outline: none;
+    background-color: #3CBC8D;
+    color: white;
+}
+
+.login {
+    background-color: lightsalmon;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2em;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    outline: none;
+}
+
+.login:hover {
+    cursor: pointer;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
